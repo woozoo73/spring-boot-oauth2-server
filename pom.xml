@@ -11,7 +11,10 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
+        <!--
         <version>1.5.6.RELEASE</version>
+        -->
+        <version>2.2.2.RELEASE</version>
     </parent>
     
     <properties>
@@ -46,6 +49,8 @@
         <dependency>
             <groupId>org.springframework.security.oauth</groupId>
             <artifactId>spring-security-oauth2</artifactId>
+             <!-- Missing으로 버전 명시 -->
+            <version>2.4.0.RELEASE</version>
         </dependency>
 <!--        <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -65,6 +70,14 @@
             <version>9.4-1206-jdbc42</version>
             <scope>runtime</scope>
         </dependency>-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
