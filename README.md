@@ -89,14 +89,14 @@ https://github.com/woozoo73/spring-boot-oauth2-client
 
 ### 5. Postman을 통한 API 확인
 
-#### 1. token 요청(Authorization 설정)
+#### 1. Authorization Server에 token 요청(Authorization 설정)
 ![postman-01.png](https://github.com/woozoo73/spring-boot-oauth2-server/blob/master/postman-01.png "postman-01")
 
-#### 2. token 요청(Body 설정)
+#### 2. Authorization Server에 token 요청(Body 설정)
 ![postman-02.png](https://github.com/woozoo73/spring-boot-oauth2-server/blob/master/postman-02.png "postman-02")
 
-#### 3. token 요청(결과)
+#### 3. Authorization Server에 token 요청(결과)
 ![postman-03.png](https://github.com/woozoo73/spring-boot-oauth2-server/blob/master/postman-03.png "postman-03")
 
-#### 4. token을 통한 자원 접근
+#### 4. Resource Server에 token을 통한 자원 접근
 ![postman-04.png](https://github.com/woozoo73/spring-boot-oauth2-server/blob/master/postman-04.png "postman-04")
